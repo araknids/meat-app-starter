@@ -20,7 +20,7 @@ export class ShoppingCartComponent implements OnInit {
   clear(){
     this.shoppingCartService.clear()
   }
-
+ 
   removeItem(item:any){
     return this.shoppingCartService.removeItem(item)
   }
